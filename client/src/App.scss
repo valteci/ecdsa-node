@@ -49,6 +49,7 @@ input {
   font-size: 0.875rem;
 }
 
+
 .button {
   background-color: #319795;
   border-radius: 0.125rem;
@@ -59,8 +60,14 @@ input {
   letter-spacing: 1px;
   font-weight: 400;
   font-size: .9em;
+  border-radius: 50px;
+  
+
   &:hover {
     cursor: pointer;
+    transform: scale(1.1);
+    transition: ease-in-out 0.2s;
+    background-color: #1D5A69;
   }
 }
 
@@ -76,7 +83,7 @@ input {
     display: inline-flex;
     margin-top: 10px;
     padding: 0.75rem;
-    background-color: #f4f6f8;
+    background-color: #f4f6f8;    
   }
 }
 
@@ -84,3 +91,4 @@ input {
   display: flex;
   flex-direction: column;
 }
+
